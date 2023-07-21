@@ -1,12 +1,13 @@
-name: master and pr builds
+name: main and pr builds
 
 on:
   push:
-    branches: 
+    branches:
     - master
+    - main
   pull_request:
-    branches: 
-    - master
+    branches:
+    - main
   workflow_dispatch:
 
 jobs:
