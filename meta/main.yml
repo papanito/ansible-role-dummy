@@ -1,0 +1,25 @@
+galaxy_info:
+  role_name: dummy
+  namespace: papanito
+  author: Adrian Wyssmann
+  description: Dummy role to test github actions workflow
+  company: wyssmann.com
+  issue_tracker_url: https://github.com/papanito/ansible-role-dummy/issues
+  license: Apache
+  min_ansible_version: "2.7"
+
+  platforms:
+    - name: EL
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+
+  galaxy_tags:
+    - dummy
+
+dependencies: []

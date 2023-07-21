@@ -1,0 +1,5 @@
+---
+# tasks file for cloudflared
+- name: Define required variables
+  ansible.builtin.set_fact:
+    daemon_location: "dummy"
